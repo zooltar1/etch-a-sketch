@@ -1,3 +1,16 @@
 body {
     background-color: aquamarine;
 }
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+}
+
+.square-box {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

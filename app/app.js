@@ -1,3 +1,6 @@
 const container = document.querySelector('div.container');
 
-container.textContent = 'Test';
+const squareBox = document.createElement('div');
+squareBox.classList.add('square-box');
+
+container.appendChild(squareBox);
