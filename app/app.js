@@ -4,10 +4,10 @@ function createBox(number) {
     for (let i = 0; i<number; i++) {
         const squareBox = document.createElement('div');
         squareBox.classList.add('square-box');
-        container.appendChild(squareBox);
+        container.appendChild(squareBox); 
     }
 }
 
-createBox(67);
+createBox(256);
 
 
