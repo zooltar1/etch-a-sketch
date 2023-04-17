@@ -5,9 +5,9 @@ body {
     padding: 0;
 }
 .container {
-    margin: 0 auto;
-    width: 800px;
-    height: 800px;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
     background-color: blue;
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +16,5 @@ body {
 
 .square-box {
     background-color: brown;
-    width: calc(100% * (1/16) - 2px);
-    height: calc(100% * (1/16) - 2px);
     border: 1px solid black;
 }
